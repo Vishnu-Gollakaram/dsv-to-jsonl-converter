@@ -17,7 +17,7 @@ public class DsvToJsonlConverter {
 
     public static void main(String[] args) {
         if (args.length < 2) {
-            System.out.println("Usage: java -jar DsvToJsonlConverter-1.jar <input_file> <output_file>");
+            System.out.println("Usage: java -jar DsvToJsonlConverter-1-jar-with-dependencies.jar <input_file> <output_file>");
             System.exit(1);
         }
 
