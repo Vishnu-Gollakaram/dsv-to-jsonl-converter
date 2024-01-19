@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.vishnu.gollakaram</groupId>
-    <artifactId>dsv-to-jsonl-converter</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>DsvToJsonlConverter</artifactId>
+    <version>1</version>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
