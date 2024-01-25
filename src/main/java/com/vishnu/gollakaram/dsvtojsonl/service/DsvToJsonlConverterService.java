@@ -29,10 +29,15 @@ public class DsvToJsonlConverterService {
      */
     public static void convertDsvToJsonl(List<String> lines, Writer output, Character delimiter) throws IOException, ParseException {
         DsvToJsonlConverterUtil util = new DsvToJsonlConverterUtil();
-        String[] header = lines.get(0).split("[,|]");
+        String[] header;
 
         if (Objects.isNull(delimiter)) {
-            delimiter = lines.get(0).contains(",") ? ',' : '|';
+            delimiter = lines.get(0).contains("|") ? '|' : ',';
+            header = lines.get(0).split("[,|]");
+        }
+
+        else {
+            header = lines.get(0).split("[" + delimiter + "]");
         }
 
         Character finalDelimiter = delimiter;

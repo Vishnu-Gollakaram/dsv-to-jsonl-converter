@@ -1,1 +1,3 @@
 com\vishnu\gollakaram\dsvtojsonl\DsvToJsonlConverterTest.class
+com\vishnu\gollakaram\dsvtojsonl\utils\DsvToJsonlConverterUtilTest.class
+com\vishnu\gollakaram\dsvtojsonl\service\DsvToJsonlConverterServiceTest.class
