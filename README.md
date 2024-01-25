@@ -47,10 +47,6 @@ java -jar DsvToJsonlConverter.jar sample.csv output.jsonl ;
 
 This project relies on Java 8 or higher.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## Contact
 
 For questions or feedback, please contact Gollakaram Vishnu at vishnusrivardhangollakaram@gmail.com.
