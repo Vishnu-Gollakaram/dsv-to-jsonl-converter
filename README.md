@@ -3,6 +3,14 @@
 
 Converts Delimiter Separated Values (DSV) to JSON Lines (JSONL) format.
 
+## Output Jar File 
+
+   Please refer the following path for executable .jar file:
+
+   ```bash
+   .\DsvToJsonlConverter.jar
+   ```
+
 ## Overview
 
 DsvToJsonlConverter is a Java-based tool that allows you to convert DSV files (CSV or other delimited formats) to JSON Lines format. This tool is designed to simplify the process of converting tabular data to a more flexible JSON format.
@@ -50,11 +58,3 @@ This project relies on Java 8 or higher.
 ## Contact
 
 For questions or feedback, please contact Gollakaram Vishnu at vishnusrivardhangollakaram@gmail.com.
-
-## Acknowledgments
-
-- Inspired by [Project/Person]
-- Used [Library/Tool] for [Purpose].
-```
-
-Replace `[Project/Person]`, `[Library/Tool]`, and other placeholders with appropriate information.
